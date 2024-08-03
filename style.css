@@ -3,10 +3,12 @@ body {
     background-color: #1e1e1e;
     color: #ccc;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
+    position: relative;
 }
 
 .player-container {
@@ -104,4 +106,15 @@ body {
 #speedDisplay {
     font-size: 20px;
     color: #fff;
+}
+
+.app-store-link {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.app-store-link svg {
+    width: 150px;
+    cursor: pointer;
 }
